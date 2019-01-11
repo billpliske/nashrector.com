@@ -99,8 +99,6 @@ injectGlobal`
     src: url(/fonts/raleway-blackitalic-webfont.woff2) format("woff2");
 }
 
-
-
 html, body {
     height: 100%;
 }

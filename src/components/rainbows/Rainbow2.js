@@ -1,6 +1,6 @@
 //import libraries
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 // create a component
 const Rainbow2 = props => {

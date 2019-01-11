@@ -1,20 +1,19 @@
-import React, { Component } from "react";
-import styled from "styled-components";
-// import ScreenOne from "./components/ScreenOne";
-// import Rainbow1 from "./components/rainbows/Rainbow1";
-// import Rainbow2 from "./components/rainbows/Rainbow2";
-// import Rainbow3 from "./components/rainbows/Rainbow3";
+import React, { Component } from 'react';
+import styled from 'styled-components';
+import ScreenOne from './components/ScreenOne';
+import ScreenTwo from './components/ScreenTwo';
+import ScreenThree from './components/ScreenThree';
+import ScreenFour from './components/ScreenFour';
 
 class App extends Component {
     render() {
         return (
             <Wrapper>
                 <InnerWrapper>
-                    {/* <ScreenOne /> */}
-
-                    {/* <Rainbow1 />
-                    <Rainbow2 />
-                    <Rainbow3 /> */}
+                    <ScreenOne />
+                    <ScreenTwo />
+                    <ScreenThree />
+                    <ScreenFour />
                 </InnerWrapper>
             </Wrapper>
         );

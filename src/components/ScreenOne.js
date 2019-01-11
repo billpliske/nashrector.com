@@ -1,23 +1,22 @@
-import React, { Component } from "react";
-import styled, { keyframes } from "styled-components";
-import Cloud1 from "./clouds/Cloud1";
-import Cloud2 from "./clouds/Cloud2";
-import Cloud3 from "./clouds/Cloud3";
-import Rainbow2 from "./rainbows/Rainbow2";
+import React, { Component } from 'react';
+import styled, { keyframes } from 'styled-components';
+import Cloud1 from './clouds/Cloud1';
+import Cloud2 from './clouds/Cloud2';
+import Cloud3 from './clouds/Cloud3';
+import Rainbow2 from './rainbows/Rainbow2';
 
 class ScreenOne extends Component {
     render() {
         return (
             <Front>
                 <RainbowWrap>
-                    <SRainbow2
+                    <Rainbow2
                         src="https://res.cloudinary.com/billpliske/image/upload/v1547066333/grandkids/rainbox2.png"
                         alt="rainbow"
                     />
                 </RainbowWrap>
-                <SCloud1 />
-                <SCloud2 />
-                <SCloud3 />
+                <Cloud2 />
+                <Cloud3 />
                 <SCloud4 />
                 <FrontContentWrapper>
                     <Mug
@@ -69,36 +68,15 @@ const Front = styled.div`
     height: 100vh;
 `;
 
-const SCloud1 = styled(Cloud1)`
-    position: absolute;
-    z-index: 2;
-    width: 20%;
-    top: 40px;
-    left: 40px;
-`;
-const SCloud2 = styled(Cloud2)`
-    position: absolute;
-    z-index: 2;
-    width: 10%;
-    top: 80px;
-    right: 40px;
-`;
-const SCloud3 = styled(Cloud3)`
-    position: absolute;
-    z-index: 0;
-    width: 10%;
-    top: 180px;
-    left: 20px;
-    opacity: 0.4;
-`;
-
 const SCloud4 = styled(Cloud1)`
-    position: absolute;
-    z-index: 0;
-    width: 10%;
-    top: 220px;
-    right: 20px;
-    opacity: 0.5;
+    &[style] {
+        position: absolute;
+        z-index: 2;
+        width: 50%;
+        top: 220px;
+        right: 20px;
+        opacity: 0.5;
+    }
 `;
 
 const FrontContentWrapper = styled.div`
@@ -123,7 +101,7 @@ const Title = styled.h1`
     position: relative;
     margin: 0 auto;
     z-index: 2;
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 900;
     font-size: 70px;
     font-style: italic;
@@ -155,16 +133,8 @@ const Arrow = styled.img`
     display: block;
     bottom: 0;
     width: 35px;
-    opacity: .3
-    animation: ${bounce} 2s infinite;
-`;
-
-const SRainbow2 = styled(Rainbow2)`
     opacity: 0.3;
-    width: 100%;
-    display: relative;
-    margin: 0px 0 200px 0;
-    z-index: 1;
+    animation: ${bounce} 2s infinite;
 `;
 
 export default ScreenOne;

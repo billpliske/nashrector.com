@@ -1,6 +1,6 @@
 //import libraries
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 // create a component
 const Rainbow1 = props => {
@@ -13,7 +13,7 @@ const Rainbow1 = props => {
 };
 
 const SRainbow1 = styled.img`
-    opacity: 0.6;
+    opacity: 0.3;
     width: 100%;
     display: relative;
     margin: 100px 0 200px 0;
