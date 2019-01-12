@@ -32,7 +32,7 @@ class Contact extends Component {
 
                     <Form>
                         <form
-                            action="https://formspree.io/bpliske@gmail.com"
+                            action="https://formspree.io/epliske@gmail.com"
                             method="POST"
                         >
                             <Input
@@ -54,7 +54,7 @@ class Contact extends Component {
                             <Input
                                 type="hidden"
                                 name="_next"
-                                value="https://www.nashrector.com/thanks"
+                                value="https://www.nashrector.com/#/thanks"
                             />
                             <Submit type="submit" value="Submit">
                                 Submit
