@@ -27,6 +27,8 @@ const Wrapper = styled.div`
         rgba(24, 97, 129, 1) 100%
     );
     overflow: auto;
+    max-width: 600px;
+    margin: 0 auto;
 `;
 
 const InnerWrapper = styled.div`

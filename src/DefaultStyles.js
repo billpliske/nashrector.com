@@ -101,10 +101,13 @@ injectGlobal`
 
 html, body {
     height: 100%;
+    background: rgb(131, 205, 255);
+
 }
 
 body > #root {
     height: 100%;
+
 }
 
 * {
