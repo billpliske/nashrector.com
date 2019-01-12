@@ -59,7 +59,7 @@ const Text = styled.p`
     max-width: 600px;
     font-size: 24px;
     line-height: 30px;
-    font-weight: 500;
+    font-weight: 600;
     color: black;
     margin: 0 auto;
 `;
@@ -71,7 +71,7 @@ const Promo = styled.p`
     font-size: 24px;
     font-style: italic;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 600;
     color: black;
     &:first-of-type {
         margin-top: 0;
