@@ -119,7 +119,7 @@ const Submit = styled.button`
 const ContentWrapper = styled.div`
     position: relative;
     margin: 0 auto;
-    padding: 80px 30px 30px 30px;
+    padding: 80px 30px 60px 30px;
     max-width: 800px;
     z-index: 2;
 `;
