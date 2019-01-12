@@ -38,13 +38,18 @@ const Wrapper = styled.div`
     position: relative;
     width: 250px;
     margin: 0 auto;
+    @media (min-width: 450px) {
+        width: 400px;
+    }
 `;
 
 const Mac = styled.img`
     position: relative;
     width: 250px;
-    max-width: 400px;
     z-index: 2;
+    @media (min-width: 450px) {
+        width: 400px;
+    }
 `;
 
 const Vid = styled(ReactPlayer)`
@@ -53,6 +58,12 @@ const Vid = styled(ReactPlayer)`
     width: 220px !important;
     top: -71px;
     left: 15px;
+    @media (min-width: 450px) {
+        width: 360px !important;
+        height: 206px !important;
+        top: 71px;
+        left: 20px;
+    }
 `;
 
 const PlayButton = styled.button`

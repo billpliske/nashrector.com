@@ -110,6 +110,11 @@ const Submit = styled.button`
     font-weight: 600;
     text-transform: uppercase;
     margin-top: 18px;
+    border: 1px solid var(--cornflower);
+    &:focus {
+        outline: none;
+        border: none;
+    }
 `;
 const ContentWrapper = styled.div`
     position: relative;
