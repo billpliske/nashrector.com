@@ -1,21 +1,13 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import ScreenOne from './components/ScreenOne';
-import ScreenTwo from './components/ScreenTwo';
-import ScreenThree from './components/ScreenThree';
-import ScreenFour from './components/ScreenFour';
-import Contact from './components/Contact';
+import Routing from './pages/Routing';
 
 class App extends Component {
     render() {
         return (
             <Wrapper>
                 <InnerWrapper>
-                    <ScreenOne />
-                    <ScreenTwo />
-                    <ScreenThree />
-                    <ScreenFour />
-                    <Contact />
+                    <Routing />
                 </InnerWrapper>
             </Wrapper>
         );
