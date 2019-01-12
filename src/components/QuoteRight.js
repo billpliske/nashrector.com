@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import styled from 'styled-components';
+import React, { Component } from "react";
+import styled from "styled-components";
 
 class QuoteRight extends Component {
     render() {
@@ -16,7 +16,7 @@ class QuoteRight extends Component {
 const QuoteWrapper = styled.div`
     position: relative;
     display: grid;
-    grid-template-columns: 120px 200px;
+    grid-template-columns: 110px 160px;
     grid-gap: 10px;
     justify-content: center;
     align-items: middle;
@@ -28,15 +28,15 @@ const QuoteWrapper = styled.div`
 
 const Quote = styled.p`
     font-weight: 600;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     text-align: left;
     color: black;
     font-size: 17px;
 `;
 
 const Character = styled.img`
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
     background-color: orange;
     border-radius: 60px;
 `;

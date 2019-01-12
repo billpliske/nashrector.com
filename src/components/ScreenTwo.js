@@ -19,8 +19,7 @@ class ScreenTwo extends Component {
                     alt="Cookie Monster"
                 />
 
-                {/* <Monitor url="https://youtu.be/XLeUvZvuvAs?t=21" /> */}
-                <Monitor />
+                <Monitor url="https://res.cloudinary.com/billpliske/video/upload/v1547322489/grandkids/monae.mp4" />
 
                 <QuoteRight
                     quote="Is the stupid party over yet? Hey, don't throw away the trash!"

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled, { keyframes } from 'styled-components';
+
 import Cloud1 from './clouds/Cloud1';
 import Cloud2 from './clouds/Cloud2';
 import Cloud3 from './clouds/Cloud3';
@@ -26,6 +27,7 @@ class ScreenOne extends Component {
                     <Title>
                         Nash turns <One>one!</One>
                     </Title>
+                    <Readout>(Please RSVP at bottom)</Readout>
                 </FrontContentWrapper>
                 <Arrow
                     src="https://res.cloudinary.com/billpliske/image/upload/v1547152137/grandkids/arrow.png"
@@ -111,6 +113,14 @@ const Title = styled.h1`
     letter-spacing: -1px;
     color: white;
     text-shadow: 1px 1px 13px #133d4c;
+`;
+
+const Readout = styled.p`
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: italic;
+    padding-top: 10px;
 `;
 
 const One = styled.span`

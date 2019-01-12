@@ -1,14 +1,34 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import ReactPlayer from 'react-player';
 
 class Monitor extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            playing: false,
+        };
+
+        this.handleClick = this.handleClick.bind(this);
+    }
+    handleClick() {
+        this.setState(state => ({
+            playing: !state.playing,
+        }));
+    }
     render() {
+        const { url } = this.props;
         return (
             <Wrapper>
+                <Vid url={url} playing={this.state.playing} />
                 <Mac
-                    src="https://res.cloudinary.com/billpliske/image/upload/v1547248466/grandkids/imac.png"
+                    src="https://res.cloudinary.com/billpliske/image/upload/v1547315324/grandkids/imac.png"
                     alt="monitor"
                 />
+                <PlayButton onClick={this.handleClick}>
+                    {this.state.playing ? 'Pause' : 'Play'}
+                </PlayButton>
             </Wrapper>
         );
     }
@@ -16,13 +36,38 @@ class Monitor extends Component {
 
 const Wrapper = styled.div`
     position: relative;
+    width: 250px;
+    margin: 0 auto;
 `;
 
 const Mac = styled.img`
     position: relative;
-    width: 80%;
+    width: 250px;
     max-width: 400px;
     z-index: 2;
+`;
+
+const Vid = styled(ReactPlayer)`
+    position: absolute;
+    z-index: 3;
+    width: 220px !important;
+    top: -71px;
+    left: 15px;
+`;
+
+const PlayButton = styled.button`
+    position: relative;
+    z-index: 3;
+    background-color: gold;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    width: 100px;
+    border: 1px solid gold;
+    &:focus {
+        outline: none;
+        border: none;
+    }
 `;
 
 export default Monitor;

@@ -18,13 +18,12 @@ class ScreenThree extends Component {
                     alt="Big Bird"
                 />
 
-                {/* <Monitor url="https://youtu.be/XLeUvZvuvAs?t=21" /> */}
-                <Monitor />
+                <Monitor url="https://res.cloudinary.com/billpliske/video/upload/v1547322489/grandkids/sheeran.mp4" />
 
                 <QuoteRight
-                    quote="Is the stupid party over yet? Hey, don't throw away the trash!"
-                    character="https://res.cloudinary.com/billpliske/image/upload/v1547063350/grandkids/oscar-circle.png"
-                    alt="Oscar the Grouch"
+                    quote="Elmo likes to go to birthday parties! Are you ticklish, Nash?"
+                    character="https://res.cloudinary.com/billpliske/image/upload/v1547063350/grandkids/elmo-circle.png"
+                    alt="Elmo"
                 />
             </Wrapper>
         );

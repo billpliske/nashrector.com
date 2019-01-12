@@ -4,6 +4,7 @@ import ScreenOne from './components/ScreenOne';
 import ScreenTwo from './components/ScreenTwo';
 import ScreenThree from './components/ScreenThree';
 import ScreenFour from './components/ScreenFour';
+import Contact from './components/Contact';
 
 class App extends Component {
     render() {
@@ -14,6 +15,7 @@ class App extends Component {
                     <ScreenTwo />
                     <ScreenThree />
                     <ScreenFour />
+                    <Contact />
                 </InnerWrapper>
             </Wrapper>
         );

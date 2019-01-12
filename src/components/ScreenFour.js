@@ -13,15 +13,14 @@ class ScreenFour extends Component {
                     <Rainbow1 />
                 </RainbowWrap>
                 <QuoteLeft
-                    quote="I can't stay long. There's another party after this one. yeah, they're "
+                    quote="I've got to go to another party after this one. I do things "
                     strong="back to back."
-                    character="https://res.cloudinary.com/billpliske/image/upload/v1547063350/grandkids/steve-nash.png"
+                    character="https://res.cloudinary.com/billpliske/image/upload/v1547309556/grandkids/steve-nash.png"
                     alt="Steve Nash"
                     padding="5px"
                 />
 
-                {/* <Monitor url="https://youtu.be/XLeUvZvuvAs?t=21" /> */}
-                <Monitor />
+                <Monitor url="https://res.cloudinary.com/billpliske/video/upload/v1547322484/grandkids/abc.mp4" />
 
                 <QuoteRight
                     quote="Feliz cumpleaños, Nash! Will my friend Elmo be there?"

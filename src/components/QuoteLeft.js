@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import styled from 'styled-components';
+import React, { Component } from "react";
+import styled from "styled-components";
 
 class QuoteLeft extends Component {
     render() {
@@ -19,7 +19,7 @@ class QuoteLeft extends Component {
 const QuoteWrapper = styled.div`
     position: relative;
     display: grid;
-    grid-template-columns: 200px 120px;
+    grid-template-columns: 160px 110px;
     grid-gap: 10px;
     justify-content: center;
     align-items: middle;
@@ -31,18 +31,18 @@ const QuoteWrapper = styled.div`
 
 const Quote = styled.p`
     font-weight: 600;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     text-align: right;
     color: black;
     font-size: 17px;
 `;
 
 const Character = styled.img`
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
     background-color: orange;
     border-radius: 60px;
-    padding: ${props => props.padding || '0px'};
+    padding: ${props => props.padding || "0px"};
 `;
 
 const Strong = styled.span`
