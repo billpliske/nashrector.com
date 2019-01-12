@@ -109,7 +109,7 @@ const Submit = styled.button`
     font-family: 'raleway', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
-    margin-top: 18px;
+    margin: 18px 0 50px 0;
     border: 1px solid var(--cornflower);
     &:focus {
         outline: none;
