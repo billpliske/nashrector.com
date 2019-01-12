@@ -97,6 +97,9 @@ const Mug = styled.img`
     width: 145px;
     margin: 0 auto;
     z-index: 2;
+    @media (min-width: 450px) {
+        width: 210px;
+    }
 `;
 
 const Title = styled.h1`
