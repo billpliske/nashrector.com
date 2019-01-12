@@ -21,7 +21,7 @@ class Monitor extends Component {
         const { url } = this.props;
         return (
             <Wrapper>
-                <Vid url={url} playing={this.state.playing} />
+                <Vid url={url} playing={this.state.playing} playsinline />
                 <Mac
                     src="https://res.cloudinary.com/billpliske/image/upload/v1547315324/grandkids/imac.png"
                     alt="monitor"
