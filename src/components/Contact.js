@@ -19,7 +19,7 @@ class Contact extends Component {
                             <Strong> Date: </Strong>January 26th, 2019
                         </li>
                         <li>
-                            <Strong> Time: </Strong> 2-4 pm
+                            <Strong> Time: </Strong> 2-5pm
                         </li>
                         <li>
                             <Strong> Address: </Strong> 15149 S. Sells Dr.
