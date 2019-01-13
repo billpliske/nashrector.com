@@ -121,7 +121,7 @@ const Title = styled.h1`
 const Readout = styled.p`
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
     font-style: italic;
     padding-top: 10px;
 `;
