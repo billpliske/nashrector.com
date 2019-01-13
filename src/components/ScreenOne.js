@@ -149,7 +149,7 @@ const One = styled.span`
 const Arrow = styled.img`
     position: absolute;
     display: block;
-    bottom: 20px;
+    bottom: 40px;
     width: 35px;
     opacity: 0.3;
     animation: ${bounce} 2s infinite;
