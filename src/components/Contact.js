@@ -22,8 +22,7 @@ class Contact extends Component {
                             <Strong> Time: </Strong> 2-5pm
                         </li>
                         <li>
-                            <Strong> Address: </Strong> 15149 S. Sells Dr.
-                            Goodyear, AZ 85345
+                            <Strong> Address: </Strong> 9661 W. Washington St. Buckeye, AZ 85326
                         </li>
                         <li>
                             RSVP <Strong> below </Strong> by January 19th!
