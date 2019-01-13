@@ -83,6 +83,7 @@ const SCloud4 = styled(Cloud1)`
 
 const FrontContentWrapper = styled.div`
     position: relative;
+    margin-top: -60px;
 `;
 
 const RainbowWrap = styled.span`
