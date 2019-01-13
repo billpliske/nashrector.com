@@ -120,11 +120,12 @@ const Title = styled.h1`
 
 const Readout = styled.p`
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     font-style: italic;
     padding-top: 10px;
-    color: #c6f0ff;
+    color: #000000;
+    letter-spacing: 1px;
 `;
 
 const One = styled.span`
