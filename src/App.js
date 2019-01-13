@@ -23,7 +23,7 @@ const Wrapper = styled.div`
     background: rgb(131, 205, 255);
     background: linear-gradient(
         0deg,
-        rgba(131, 205, 255, 1) 0%,
+        rgba(147, 211, 255, 1) 0%,
         rgba(34, 129, 170, 1) 100%
     );
     overflow: auto;
