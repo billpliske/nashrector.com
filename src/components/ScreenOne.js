@@ -124,6 +124,7 @@ const Readout = styled.p`
     font-size: 16px;
     font-style: italic;
     padding-top: 10px;
+    color: #c6f0ff;
 `;
 
 const One = styled.span`
