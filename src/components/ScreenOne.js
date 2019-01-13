@@ -34,7 +34,7 @@ class ScreenOne extends Component {
                     <Spring
                         from={{ opacity: 0 }}
                         to={{ opacity: 1 }}
-                        config={{ delay: 1200, duration: 1000 }}
+                        config={{ delay: 1100, duration: 1000 }}
                     >
                         {props => (
                             <div style={props}>
@@ -48,7 +48,7 @@ class ScreenOne extends Component {
                     <Spring
                         from={{ opacity: 0 }}
                         to={{ opacity: 1 }}
-                        config={{ delay: 2300, duration: 800 }}
+                        config={{ delay: 1700, duration: 800 }}
                     >
                         {props => (
                             <div style={props}>
@@ -57,10 +57,20 @@ class ScreenOne extends Component {
                         )}
                     </Spring>
                 </FrontContentWrapper>
-                <Arrow
-                    src="https://res.cloudinary.com/billpliske/image/upload/v1547152137/grandkids/arrow.png"
-                    alt="arrow"
-                />
+
+                <Spring
+                    from={{ opacity: 1 }}
+                    to={{ opacity: 0 }}
+                    config={{ delay: 5000, duration: 800 }}
+                >
+                    {props => (
+                        <Arrow
+                            style={props}
+                            src="https://res.cloudinary.com/billpliske/image/upload/v1547152137/grandkids/arrow.png"
+                            alt="arrow"
+                        />
+                    )}
+                </Spring>
             </Front>
         );
     }
