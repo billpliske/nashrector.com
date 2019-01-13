@@ -15,8 +15,8 @@ const MacRainbow = () => {
 // define your styles
 const Image = styled.img`
     position: absolute;
-    width: 15px;
     z-index: 4;
+    width: 15px;
     top: 182px;
     left: 117px;
     @media (min-width: 450px) {
