@@ -126,6 +126,8 @@ const Readout = styled.p`
     padding-top: 10px;
     color: #000000;
     letter-spacing: 1px;
+    position: relative;
+    z-index: 2;
 `;
 
 const One = styled.span`
