@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled, { keyframes } from 'styled-components';
-
+import { Spring } from 'react-spring';
 import Cloud1 from './clouds/Cloud1';
 import Cloud2 from './clouds/Cloud2';
 import Cloud3 from './clouds/Cloud3';
@@ -20,14 +20,42 @@ class ScreenOne extends Component {
                 <Cloud3 />
                 <SCloud4 />
                 <FrontContentWrapper>
-                    <Mug
-                        src="https://res.cloudinary.com/billpliske/image/upload/v1547177300/grandkids/nash-top-excited.png"
-                        alt="Nash"
-                    />
-                    <Title>
-                        Nash turns <One>one!</One>
-                    </Title>
-                    <Readout>(Please RSVP at bottom)</Readout>
+                    <Spring from={{ marginTop: -600 }} to={{ marginTop: 0 }}>
+                        {props => (
+                            <div style={props}>
+                                <Mug
+                                    src="https://res.cloudinary.com/billpliske/image/upload/v1547177300/grandkids/nash-top-excited.png"
+                                    alt="Nash"
+                                />
+                            </div>
+                        )}
+                    </Spring>
+
+                    <Spring
+                        from={{ opacity: 0 }}
+                        to={{ opacity: 1 }}
+                        config={{ delay: 1200, duration: 1000 }}
+                    >
+                        {props => (
+                            <div style={props}>
+                                <Title>
+                                    Nash turns <One>one!</One>
+                                </Title>
+                            </div>
+                        )}
+                    </Spring>
+
+                    <Spring
+                        from={{ opacity: 0 }}
+                        to={{ opacity: 1 }}
+                        config={{ delay: 2300, duration: 800 }}
+                    >
+                        {props => (
+                            <div style={props}>
+                                <Readout>(Please RSVP at bottom)</Readout>
+                            </div>
+                        )}
+                    </Spring>
                 </FrontContentWrapper>
                 <Arrow
                     src="https://res.cloudinary.com/billpliske/image/upload/v1547152137/grandkids/arrow.png"
