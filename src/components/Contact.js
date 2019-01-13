@@ -22,7 +22,8 @@ class Contact extends Component {
                             <Strong> Time: </Strong> 2-5pm
                         </li>
                         <li>
-                            <Strong> Address: </Strong> 9661 W. Washington St. Buckeye, AZ 85326
+                            <Strong> Address: </Strong> 19661 W. Washington St.
+                            Buckeye, AZ 85326
                         </li>
                         <li>
                             RSVP <Strong> below </Strong> by January 19th!
