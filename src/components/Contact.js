@@ -21,10 +21,10 @@ class Contact extends Component {
                         <li>
                             <Strong> Time: </Strong> 2-5pm
                         </li>
-                        <li>
+                        {/* <li>
                             <Strong> Address: </Strong> 19661 W. Washington St.
                             Buckeye, AZ 85326
-                        </li>
+                        </li> */}
                         <li>
                             RSVP <Strong> below </Strong> by January 19th!
                         </li>
