@@ -30,19 +30,6 @@ const Wrapper = styled.div`
     background-image: url('https://res.cloudinary.com/billpliske/image/upload/v1578629850/grandkids/nash-thanks.jpg');
     background-size: cover;
     display: block;
-    background-position: -140px;
-    @media screen and (min-width: 320px) {
-        background-position: -90px;
-    }
-    @media screen and (min-width: 360px) {
-        background-position: -85px;
-    }
-    @media screen and (min-width: 375px) {
-        background-position: -110px;
-    }
-    @media screen and (min-width: 410px) {
-        background-position: -130px;
-    } */
 `;
 
 const Screen = styled.div`
