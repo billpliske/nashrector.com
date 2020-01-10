@@ -5,6 +5,11 @@ import InvitationButton from '../components/InvitationButton';
 import MenuButton from '../components/MenuButton';
 
 export default function Golf() {
+    // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+    const vh = window.innerHeight * 0.01;
+    // Then we set the value in the --vh custom property to the root of the document
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+
     setTimeout(function() {
         const x = document.getElementById('myAudio');
         x.play();
@@ -37,6 +42,7 @@ const Image = styled.div`
     background-size: cover;
     height: 100vh;
     width: 100vw;
+    height: calc(var(--vh, 1vh) * 100);
     display: block;
     background-position: -94px;
     @media screen and (min-width: 320px) {
