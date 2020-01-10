@@ -59,7 +59,7 @@ const Screen = styled.div`
 const ContentWrapper = styled.div`
     position: relative;
     margin: 0 auto;
-    padding: 80px 30px 30px 30px;
+    padding: 30px 30px 30px 30px;
     max-width: 800px;
     z-index: 2;
     color: white;
@@ -69,22 +69,22 @@ const Title = styled.h1`
     font-weight: 700;
     font-size: 50px;
     font-style: italic;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     color: white;
 `;
 
 const Text = styled.p`
     max-width: 600px;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 24px;
     font-weight: 600;
     margin: 0 auto;
 `;
 
 const Promo = styled.p`
-    margin: 40px auto 20px auto;
+    margin: 20px auto 20px auto;
     max-width: 600px;
-    font-size: 24px;
+    font-size: 20px;
     font-style: italic;
     line-height: 30px;
     font-weight: 600;
