@@ -42,14 +42,17 @@ const Wrapper = styled.div`
     }
     @media screen and (min-width: 410px) {
         background-position: -130px;
-    }
+    } */
 `;
 
 const Screen = styled.div`
     background-color: rgba(0, 0, 0, 0.5);
-    height: 100vh;
     position: absolute;
-    width: 100vw;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
     z-index: 1;
 `;
 
