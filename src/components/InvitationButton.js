@@ -12,7 +12,7 @@ export default function InvitationButton() {
 
 const Button = styled.div`
     position: absolute;
-    bottom: 0;
+    bottom: 80px;
     left: 0;
     right: 0;
     padding: 20px;
