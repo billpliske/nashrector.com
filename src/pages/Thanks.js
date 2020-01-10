@@ -10,6 +10,7 @@ function Thanks() {
 
     return (
         <Wrapper>
+            <Screen />
             <ContentWrapper>
                 <Title>Thanks!</Title>
                 <Text>Nash is looking forward to seeing you at the party!</Text>
@@ -26,6 +27,30 @@ const Wrapper = styled.div`
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
     width: 100vw;
+    background-image: url('https://res.cloudinary.com/billpliske/image/upload/v1578629850/grandkids/nash-thanks.jpg');
+    background-size: cover;
+    display: block;
+    background-position: -140px;
+    @media screen and (min-width: 320px) {
+        background-position: -90px;
+    }
+    @media screen and (min-width: 360px) {
+        background-position: -85px;
+    }
+    @media screen and (min-width: 375px) {
+        background-position: -110px;
+    }
+    @media screen and (min-width: 410px) {
+        background-position: -130px;
+    }
+`;
+
+const Screen = styled.div`
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+    z-index: 1;
 `;
 
 const ContentWrapper = styled.div`
@@ -34,6 +59,7 @@ const ContentWrapper = styled.div`
     padding: 80px 30px 30px 30px;
     max-width: 800px;
     z-index: 2;
+    color: white;
 `;
 
 const Title = styled.h1`
@@ -45,24 +71,21 @@ const Title = styled.h1`
 `;
 
 const Text = styled.p`
-    width: 85%;
     max-width: 600px;
     font-size: 24px;
     line-height: 30px;
     font-weight: 600;
-    color: black;
     margin: 0 auto;
 `;
 
 const Promo = styled.p`
     margin: 40px auto 20px auto;
-    width: 85%;
     max-width: 600px;
     font-size: 24px;
     font-style: italic;
     line-height: 30px;
     font-weight: 600;
-    color: black;
+
     &:first-of-type {
         margin-top: 0;
     }

@@ -58,9 +58,6 @@ export default function Ballgrid() {
                     />
                 </StyledLink>
             </Baseball>
-            <HomeLink>
-                <StyledLink to="/">Back to home</StyledLink>
-            </HomeLink>
         </Wrapper>
     );
 }
@@ -68,7 +65,7 @@ export default function Ballgrid() {
 const Wrapper = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
     width: 100vw;
@@ -105,13 +102,13 @@ const Soccer = styled.div`
 
 const Golf = styled.div`
     grid-column: 1 / 2;
-    grid-row: 2 / 3;
+    grid-row: 2 / 2;
     background-color: darkgreen;
 `;
 
 const Basketball = styled.div`
     grid-column: 2 / 2;
-    grid-row: 2 / 3;
+    grid-row: 2 / 2;
     background-color: purple;
 `;
 
@@ -129,11 +126,4 @@ const Baseball = styled.div`
     grid-column: 2 / 2;
     grid-row: 3 / 3;
     background-color: royalblue;
-`;
-
-const HomeLink = styled.div`
-    grid-column: auto / span 2;
-    grid-row: 4 / 4;
-    background-color: royalblue;
-    height: 80px;
 `;
