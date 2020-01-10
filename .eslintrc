@@ -1,15 +1,16 @@
 {
-  "extends": ["react-app", "prettier"],
-  "rules": {
-    "prettier/prettier": [
-      "error",
-      {
-        "trailingComma": "es5",
-        "singleQuote": true,
-        "tabWidth": 4,
-        "disableLanguages": ["js"]
-      }
-    ]
-  },
-  "plugins": ["prettier"]
+    "extends": ["wesbos"],
+    "rules": {
+        "no-console": "off",
+        "no-use-before-define": "off",
+        "prettier/prettier": [
+            "error",
+            {
+                "trailingComma": "es5",
+                "singleQuote": true,
+                "printWidth": 100,
+                "tabWidth": 4
+            }
+        ]
+    }
 }

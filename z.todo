@@ -1,10 +1,12 @@
 Features
-☐ Change Apple logo midway across screen
-☐ Music volume fades in and out depending on screen position.
+☐ Intro will be SVG paths of balls
+☐ Each will be SVG, real, back to SVG ... then morph
+    1. Tennis ball (sound of crowd cheering, calls going back and forth).
+    2. Bowling ball (sound of ball hitting pins)
+    3. Football (omaha!, "hey football head!")
+    4. Volleyball (some king of announcer sound bite)
+    5. Soccer (Goooooooaaaaalllllll!)
+    6. Basketball (Announcer, and Nash wins the game!)
+    7. Nash's head (saying "ball")
 
-Potenital reference links
-☐ https://github.com/jscottsmith/react-scroll-parallax
-☐ https://github.com/troybetz/react-youtube
-☐ https://gomakethings.com/how-to-test-if-an-element-is-in-the-viewport-with-vanilla-javascript/
-☐ https://github.com/CookPete/react-player
-☐ https://www.youtube.com/watch?v=S8yn3-WpVV8
+

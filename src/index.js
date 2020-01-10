@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import * as serviceWorker from './serviceWorker';
 import { HashRouter } from 'react-router-dom';
+import * as serviceWorker from './serviceWorker';
 import App from './App';
 import ScrollToTop from './components/ScrollToTop';
 import './DefaultStyles';

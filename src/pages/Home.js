@@ -1,20 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from 'styled-components';
-import ScreenOne from '../components/ScreenOne';
-import ScreenTwo from '../components/ScreenTwo';
-import ScreenThree from '../components/ScreenThree';
-import ScreenFour from '../components/ScreenFour';
-import Contact from '../components/Contact';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
+// local
 
-class Home extends Component {
+class Home extends React.Component {
     render() {
         return (
             <Wrapper>
-                <ScreenOne />
-                <ScreenTwo />
-                <ScreenThree />
-                <ScreenFour />
-                <Contact />
+                <NavLink to="/menu">
+                    <Nashhome />
+                </NavLink>
             </Wrapper>
         );
     }
@@ -22,6 +17,29 @@ class Home extends Component {
 
 const Wrapper = styled.div`
     position: relative;
+    text-align: center;
+    width: 100%;
+`;
+
+const Nashhome = styled.div`
+    background-image: url('https://res.cloudinary.com/billpliske/image/upload/v1578368883/grandkids/nash-home-2.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    background-position: -140px;
+    @media screen and (min-width: 320px) {
+        background-position: -90px;
+    }
+    @media screen and (min-width: 360px) {
+        background-position: -85px;
+    }
+    @media screen and (min-width: 375px) {
+        background-position: -110px;
+    }
+    @media screen and (min-width: 410px) {
+        background-position: -130px;
+    }
 `;
 
 export default Home;
