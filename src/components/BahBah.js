@@ -6,16 +6,16 @@ export default function BahBah() {
         const y = document.getElementById('bahbah');
         y.style.left = '20%';
         y.style.top = '35%';
-    }, 1000);
+    }, 300);
     setTimeout(function() {
         const z = document.getElementById('myAudio');
         z.play();
-    }, 1500);
+    }, 1000);
 
     setTimeout(function() {
         const y = document.getElementById('bahbah');
         y.style.left = '-200%';
-    }, 3000);
+    }, 2000);
 
     return (
         <>

@@ -14,6 +14,7 @@ export default function Golf() {
         const x = document.getElementById('myAudio');
         x.play();
     }, 1000);
+
     return (
         <Wrapper>
             <audio id="myAudio">

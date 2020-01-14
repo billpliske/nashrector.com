@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 // local
 import MenuButton from '../components/MenuButton';
 import BahBah from '../components/BahBah';
@@ -50,6 +51,13 @@ export default function Invitation() {
                         <Submit type="submit" value="Submit">
                             Submit
                         </Submit>
+                        <NavLink to="/invitation">
+                            <Image
+                                id="bahbah"
+                                src="https://res.cloudinary.com/billpliske/image/upload/v1578619050/grandkids/nash-bah-bah.jpg"
+                                alt="bahbah"
+                            />
+                        </NavLink>
                     </form>
                 </Form>
             </ContentWrapper>
@@ -100,14 +108,14 @@ const Submit = styled.button`
     background-color: var(--cornflower);
     border: 1px solid var(--cornflower);
     color: white;
-    display: block;
     font-family: 'raleway', sans-serif;
     font-size: 16px;
     font-weight: 600;
     margin: 18px 0 50px 0;
     padding: 15px;
     text-transform: uppercase;
-    width: 200px;
+    width: 60%
+    max-width: 200px;
     &:focus {
         outline: none;
         border: none;
@@ -149,4 +157,14 @@ const Details = styled.ul`
 
 const Strong = styled.span`
     font-weight: 800;
+`;
+
+const Image = styled.img`
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 6;
+    top: 20px;
+    left: 30px;
 `;
