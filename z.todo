@@ -1,12 +1,11 @@
 Features
-☐ Intro will be SVG paths of balls
-☐ Each will be SVG, real, back to SVG ... then morph
-    1. Tennis ball (sound of crowd cheering, calls going back and forth).
-    2. Bowling ball (sound of ball hitting pins)
-    3. Football (omaha!, "hey football head!")
-    4. Volleyball (some king of announcer sound bite)
-    5. Soccer (Goooooooaaaaalllllll!)
-    6. Basketball (Announcer, and Nash wins the game!)
-    7. Nash's head (saying "ball")
-
+----------
+✔ Spirit logo on front with enter button @done(22-01-08 13:36)
+✔ Grid of 8 faces that link to pages @done(22-01-08 16:26)
+✔ Header/logo at top with icon link to party page and home icon. @done(22-01-08 16:26)
+☐ Party page with invite info
+☐ Individual animatronic pages, that start black, with a delay, and then quick fade in of image of relative with screaming sound of some kind (might be random)
+✔ Back button on each page. @done(22-01-08 16:25)
+☐ Random background sound on refresh (autoplays, somehow)
+☐ Kepp track of what's been clicked on for family page, and change the look if it's been clicked on. Once all have been clicked on, reset them all back to original look.
 
